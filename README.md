@@ -5,7 +5,7 @@
 의학용 논문 데이터셋 구축하기 위해 크롤링을 하였습니다.
 
 ## pubmed 란?
-
+![medpub](https://user-images.githubusercontent.com/39583653/113894585-1e8fda80-9803-11eb-9153-75d6b2202bd4.png)
 펍메드(영어: PubMed)는 생명과학 및 생물의학 그리고 건강심리학등 보건 및 복지에 관한 폭넓은 주제에 대한 참조 및 요약을 담고 있는 MEDLINE 데이터베이스를 주로 접근할 수 있게 해 주는 자유 검색 엔진이다
 
 사용언어는 **python**이며 **BeautifulSoup**를 사용하여 크롤링 하였습니다.
