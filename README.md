@@ -15,7 +15,7 @@ ps. **proxy**를 잠시 사용한 버전입니다. (44만개를 여러개의 py 
 
 - 해당 크롤러의 저장소인 데이터베이스의 형태입니다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de68f40f-553e-4c7b-b1eb-a10a7dc633b2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de68f40f-553e-4c7b-b1eb-a10a7dc633b2/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/39583653/113895038-85ad8f00-9803-11eb-9a00-a15f94af2c42.png)
 
 pubmed의 pmid(고유 id값)에 모든 내용이 없는것을 확인하고 해당 pmid에 논문의 내용이 있는지 없는지에 대한 판별은 제목의 유무로 판단하였습니다.
 
@@ -95,15 +95,19 @@ conn.close()
 
 해당 작업을 연속적으로 하게 되어 결과는 아래의 db로 즉각적으로 입력되어있습니다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf35ef4-6d51-47a4-9cfe-fc51c654c737/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbf35ef4-6d51-47a4-9cfe-fc51c654c737/Untitled.png)
+![dbresults](https://user-images.githubusercontent.com/39583653/113895028-8514f880-9803-11eb-8028-d412b2b26ef5.png)
 
 해당 작업의 결과물이며 해당작업의 링크도 옆에 동일하게 설정하였습니다.
 
 해당 크롤러로 병렬적으로 여러 프로세스를 틀어서  44만개 정도의 데이터를 축적하였습니다.
 
+![count_db](https://user-images.githubusercontent.com/39583653/113895022-83e3cb80-9803-11eb-985c-c56774cb43f0.png)
+
 # 2. 지역신문사 기사 크롤링
 
 2020 시공간인공지능 1년차 자료구축 크롤러입니다. 
+
+![rodemap](https://user-images.githubusercontent.com/39583653/113895034-8514f880-9803-11eb-9af7-4a4f674d6d69.png)
 
 대학교 연구실로 1차년도에 해당하는 데이터를 수집하는 과정에서 작성한 크롤러 입니다.
 
