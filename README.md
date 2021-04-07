@@ -1,5 +1,5 @@
 # Crawling_Project
-## python, Beautiful Soup를 사용하여 pubmed 와 각 지역 신문사를 크롤링 하였습니다.
+- python, Beautiful Soup를 사용하여 pubmed 와 각 지역 신문사를 크롤링 하였습니다.
 # 1. PUBMED 크롤링
 
 의학용 논문 데이터셋 구축하기 위해 크롤링을 하였습니다.
